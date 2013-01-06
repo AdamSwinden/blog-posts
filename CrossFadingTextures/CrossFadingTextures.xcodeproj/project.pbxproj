@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6650116C16988F81006C883E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6650116B16988F81006C883E /* UIKit.framework */; };
+		6650116E16988F81006C883E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6650116D16988F81006C883E /* Foundation.framework */; };
+		6650117016988F81006C883E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6650116F16988F81006C883E /* CoreGraphics.framework */; };
+		6650117216988F81006C883E /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6650117116988F81006C883E /* GLKit.framework */; };
+		6650117416988F81006C883E /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6650117316988F81006C883E /* OpenGLES.framework */; };
+		6650117A16988F81006C883E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6650117816988F81006C883E /* InfoPlist.strings */; };
+		6650117C16988F81006C883E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6650117B16988F81006C883E /* main.m */; };
+		6650118016988F81006C883E /* ASAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6650117F16988F81006C883E /* ASAppDelegate.m */; };
+		6650118216988F81006C883E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6650118116988F81006C883E /* Default.png */; };
+		6650118416988F81006C883E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6650118316988F81006C883E /* Default@2x.png */; };
+		6650118616988F81006C883E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6650118516988F81006C883E /* Default-568h@2x.png */; };
+		6650119816988FE2006C883E /* ASViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6650119716988FE2006C883E /* ASViewController.m */; };
+		6650119B16989233006C883E /* ASDrawable.m in Sources */ = {isa = PBXBuildFile; fileRef = 6650119A16989233006C883E /* ASDrawable.m */; };
+		6650119E16989C99006C883E /* GLTriangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 6650119D169897A0006C883E /* GLTriangle.m */; };
+		665011A316989FAF006C883E /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 665011A116989FAF006C883E /* Shader.fsh */; };
+		665011A416989FAF006C883E /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 665011A216989FAF006C883E /* Shader.vsh */; };
+		665011B11698B152006C883E /* texture1.png in Resources */ = {isa = PBXBuildFile; fileRef = 665011AF1698B151006C883E /* texture1.png */; };
+		665011B21698B152006C883E /* texture2.png in Resources */ = {isa = PBXBuildFile; fileRef = 665011B01698B151006C883E /* texture2.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6650116716988F81006C883E /* CrossFadingTextures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrossFadingTextures.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6650116B16988F81006C883E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6650116D16988F81006C883E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6650116F16988F81006C883E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6650117116988F81006C883E /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		6650117316988F81006C883E /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		6650117716988F81006C883E /* CrossFadingTextures-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CrossFadingTextures-Info.plist"; sourceTree = "<group>"; };
+		6650117916988F81006C883E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6650117B16988F81006C883E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6650117D16988F81006C883E /* CrossFadingTextures-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CrossFadingTextures-Prefix.pch"; sourceTree = "<group>"; };
+		6650117E16988F81006C883E /* ASAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASAppDelegate.h; sourceTree = "<group>"; };
+		6650117F16988F81006C883E /* ASAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASAppDelegate.m; sourceTree = "<group>"; };
+		6650118116988F81006C883E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		6650118316988F81006C883E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		6650118516988F81006C883E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		6650119616988FE2006C883E /* ASViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASViewController.h; sourceTree = "<group>"; };
+		6650119716988FE2006C883E /* ASViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASViewController.m; sourceTree = "<group>"; };
+		6650119916989233006C883E /* ASDrawable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASDrawable.h; sourceTree = "<group>"; };
+		6650119A16989233006C883E /* ASDrawable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASDrawable.m; sourceTree = "<group>"; };
+		6650119C169897A0006C883E /* GLTriangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLTriangle.h; sourceTree = "<group>"; };
+		6650119D169897A0006C883E /* GLTriangle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLTriangle.m; sourceTree = "<group>"; };
+		665011A116989FAF006C883E /* Shader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.fsh; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.glsl; };
+		665011A216989FAF006C883E /* Shader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.vsh; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.glsl; };
+		665011AF1698B151006C883E /* texture1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = texture1.png; sourceTree = "<group>"; };
+		665011B01698B151006C883E /* texture2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = texture2.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6650116416988F81006C883E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6650116C16988F81006C883E /* UIKit.framework in Frameworks */,
+				6650116E16988F81006C883E /* Foundation.framework in Frameworks */,
+				6650117016988F81006C883E /* CoreGraphics.framework in Frameworks */,
+				6650117216988F81006C883E /* GLKit.framework in Frameworks */,
+				6650117416988F81006C883E /* OpenGLES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6650115C16988F81006C883E = {
+			isa = PBXGroup;
+			children = (
+				6650117516988F81006C883E /* CrossFadingTextures */,
+				6650116A16988F81006C883E /* Frameworks */,
+				6650116816988F81006C883E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6650116816988F81006C883E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6650116716988F81006C883E /* CrossFadingTextures.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6650116A16988F81006C883E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6650116B16988F81006C883E /* UIKit.framework */,
+				6650116D16988F81006C883E /* Foundation.framework */,
+				6650116F16988F81006C883E /* CoreGraphics.framework */,
+				6650117116988F81006C883E /* GLKit.framework */,
+				6650117316988F81006C883E /* OpenGLES.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6650117516988F81006C883E /* CrossFadingTextures */ = {
+			isa = PBXGroup;
+			children = (
+				6650117E16988F81006C883E /* ASAppDelegate.h */,
+				6650117F16988F81006C883E /* ASAppDelegate.m */,
+				6650119616988FE2006C883E /* ASViewController.h */,
+				6650119716988FE2006C883E /* ASViewController.m */,
+				6650119916989233006C883E /* ASDrawable.h */,
+				6650119A16989233006C883E /* ASDrawable.m */,
+				665011A216989FAF006C883E /* Shader.vsh */,
+				665011A116989FAF006C883E /* Shader.fsh */,
+				6650119C169897A0006C883E /* GLTriangle.h */,
+				6650119D169897A0006C883E /* GLTriangle.m */,
+				665011AF1698B151006C883E /* texture1.png */,
+				665011B01698B151006C883E /* texture2.png */,
+				6650117616988F81006C883E /* Supporting Files */,
+			);
+			path = CrossFadingTextures;
+			sourceTree = "<group>";
+		};
+		6650117616988F81006C883E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6650117716988F81006C883E /* CrossFadingTextures-Info.plist */,
+				6650117816988F81006C883E /* InfoPlist.strings */,
+				6650117B16988F81006C883E /* main.m */,
+				6650117D16988F81006C883E /* CrossFadingTextures-Prefix.pch */,
+				6650118116988F81006C883E /* Default.png */,
+				6650118316988F81006C883E /* Default@2x.png */,
+				6650118516988F81006C883E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6650116616988F81006C883E /* CrossFadingTextures */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6650119316988F82006C883E /* Build configuration list for PBXNativeTarget "CrossFadingTextures" */;
+			buildPhases = (
+				6650116316988F81006C883E /* Sources */,
+				6650116416988F81006C883E /* Frameworks */,
+				6650116516988F81006C883E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrossFadingTextures;
+			productName = CrossFadingTextures;
+			productReference = 6650116716988F81006C883E /* CrossFadingTextures.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6650115E16988F81006C883E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AS;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Adam Swinden";
+			};
+			buildConfigurationList = 6650116116988F81006C883E /* Build configuration list for PBXProject "CrossFadingTextures" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6650115C16988F81006C883E;
+			productRefGroup = 6650116816988F81006C883E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6650116616988F81006C883E /* CrossFadingTextures */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6650116516988F81006C883E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6650117A16988F81006C883E /* InfoPlist.strings in Resources */,
+				6650118216988F81006C883E /* Default.png in Resources */,
+				6650118416988F81006C883E /* Default@2x.png in Resources */,
+				6650118616988F81006C883E /* Default-568h@2x.png in Resources */,
+				665011A316989FAF006C883E /* Shader.fsh in Resources */,
+				665011A416989FAF006C883E /* Shader.vsh in Resources */,
+				665011B11698B152006C883E /* texture1.png in Resources */,
+				665011B21698B152006C883E /* texture2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6650116316988F81006C883E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6650117C16988F81006C883E /* main.m in Sources */,
+				6650118016988F81006C883E /* ASAppDelegate.m in Sources */,
+				6650119816988FE2006C883E /* ASViewController.m in Sources */,
+				6650119B16989233006C883E /* ASDrawable.m in Sources */,
+				6650119E16989C99006C883E /* GLTriangle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6650117816988F81006C883E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6650117916988F81006C883E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6650119116988F82006C883E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6650119216988F82006C883E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6650119416988F82006C883E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CrossFadingTextures/CrossFadingTextures-Prefix.pch";
+				INFOPLIST_FILE = "CrossFadingTextures/CrossFadingTextures-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6650119516988F82006C883E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CrossFadingTextures/CrossFadingTextures-Prefix.pch";
+				INFOPLIST_FILE = "CrossFadingTextures/CrossFadingTextures-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6650116116988F81006C883E /* Build configuration list for PBXProject "CrossFadingTextures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6650119116988F82006C883E /* Debug */,
+				6650119216988F82006C883E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6650119316988F82006C883E /* Build configuration list for PBXNativeTarget "CrossFadingTextures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6650119416988F82006C883E /* Debug */,
+				6650119516988F82006C883E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6650115E16988F81006C883E /* Project object */;
+}
